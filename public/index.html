@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Okinawa Travel Destinations</title> 
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Okinawa Travel Destinations</h1>
+    <p>A complete Node.js + Express demonstration</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Explore Destinations</h2>
+      <button id="loadDestinations">Load Destinations</button>
+      <div id="destinations"></div>
+    </section>
+
+    <section>
+      <h2>Find a Destination by ID</h2>
+
+      <form id="destinationForm">
+        <label for="destinationId">Destination ID:</label>
+        <input id="destinationId" type="number" min="1" required>
+        <button type="submit">Find Destination</button>
+      </form>
+
+      <div id="destinationResult"></div>
+    </section>
+
+    <section>
+      <h2>Express-Generated Page</h2>
+      <p><a href="/about">Visit the About route</a></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

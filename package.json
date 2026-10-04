@@ -1,0 +1,12 @@
+{
+  "name": "webd172-homework4-okinawa-destinations",
+  "version": "1.0.0",
+  "description": "WEBD 172 Homework 4 Okinawa Travel Destinations Express project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
